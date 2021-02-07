@@ -23,7 +23,7 @@ number = random.randint() # Generates a random number
 
 
 import random
-number = random.randint (1, 100)
+number = random.randint (1, 99)
 
 while True:
 
@@ -33,7 +33,7 @@ while True:
         break
     elif guess < 1:
         print("Jeez!!! Read the question! >:( ")
-    elif guess > 100: 
+    elif guess > 99: 
         print("Seriously ?!?!")
     elif guess > number: 
         print("Ops... Too high!")
