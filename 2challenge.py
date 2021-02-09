@@ -8,13 +8,8 @@
     prints the even numbers.
 """
 
-x = 0 
+x, y = map(int, input("Add two number to check all the even numbers between the values given\n").split())
 
-check_value = int(input("How many even number can we find "))
-
-while x < 10:
-    if ((x % 2) == 0): # If the number is even
-        print(x)
-
-    else: # If the number is odd
-        continue # Go to next iteration
+for num in range(x, y):
+    if num % 2 == 0:
+        print(num, y = ", ")
