@@ -8,8 +8,8 @@
     prints the even numbers.
 """
 
-x, y = map(int, input("Add two number to check all the even numbers between the values given\n").split())
+x, y = map(int, input("Add two values to check all the even numbers between the numbers given:\n").split())
 
 for num in range(x, y):
     if num % 2 == 0:
-        print(num, y = ", ")
+        print(num)
